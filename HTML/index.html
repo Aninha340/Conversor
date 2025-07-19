@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="C:\Arquivos escolar (Ep)\Conversor\CSS\main.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Moedas</h1>
+
+    <div class="form-group">
+      <label for="amount">💰 Valor:</label>
+      <input type="number" id="amount" placeholder="Ex: 100" />
+    </div>
+
+    <div class="form-group">
+      <label for="from">➡️ De:</label>
+      <select id="from">
+        <option value="USD">Dólar (USD)</option>
+        <option value="BRL">Real (BRL)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="GBP">Libra (GBP)</option>
+        <option value="JPY">Iene (JPY)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="to">🔄 Para:</label>
+      <select id="to">
+        <option value="USD">Dólar (USD)</option>
+        <option value="BRL">Real (BRL)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="GBP">Libra (GBP)</option>
+        <option value="JPY">Iene (JPY)</option>
+      </select>
+    </div>
+
+    <button onclick="converter()">Converter 💸</button>
+
+    <p id="resultado" class="resultado"></p>
+  </div>
+
+  <script src="C:\Arquivos escolar (Ep)\Conversor\JS\script.js"></script>
+</body>
+</html>
